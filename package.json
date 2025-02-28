@@ -1,6 +1,4 @@
 {
-  "name": "react-katex",
-  "version": "3.0.1",
   "private": true,
   "workspaces": [
     "packages/*"
