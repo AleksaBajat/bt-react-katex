@@ -1,6 +1,6 @@
 {
-  "name": "react-katex",
-  "version": "3.0.1",
+  "name": "bt-react-katex",
+  "version": "3.0.2",
   "description": "Display math in TeX with KaTeX and ReactJS",
   "keywords": [
     "react",
@@ -9,10 +9,10 @@
     "math",
     "katex"
   ],
-  "homepage": "https://github.com/talyssonoc/react-katex",
-  "main": "dist/react-katex.js",
+  "homepage": "https://github.com/AleksaBajat/bt-react-katex",
+  "main": "dist/bt-react-katex.js",
   "scripts": {
-    "build": "NODE_ENV=production swc ./src/index.jsx -o dist/react-katex.js",
+    "build": "NODE_ENV=production swc ./src/index.jsx -o dist/bt-react-katex.js",
     "test": "jest",
     "report-coverage": "jest && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint src/**/*.jsx"
@@ -23,10 +23,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/talyssonoc/react-katex.git"
+    "url": "git://github.com/AleksaBajat/bt-react-katex.git"
   },
   "bugs": {
-    "url": "https://github.com/talyssonoc/react-katex/issues"
+    "url": "https://github.com/AleksaBajat/bt-react-katex/issues"
   },
   "license": "MIT",
   "dependencies": {
