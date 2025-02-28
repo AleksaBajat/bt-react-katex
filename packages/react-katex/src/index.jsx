@@ -50,7 +50,7 @@ const createMathComponent = (Component, { displayMode }) => {
           return { error };
         }
 
-        throw error;
+        return error;
       }
     }, [formula, errorColor, renderError]);
 
