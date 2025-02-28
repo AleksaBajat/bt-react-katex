@@ -15,7 +15,8 @@
     "build": "NODE_ENV=production swc ./src/index.jsx -o dist/react-katex.js",
     "test": "jest",
     "report-coverage": "jest && cat ./coverage/lcov.info | coveralls",
-    "lint": "eslint src/**/*.jsx"
+    "lint": "eslint src/**/*.jsx",
+    "prepare": "yarn install && yarn build"
   },
   "author": {
     "name": "Talysson",
